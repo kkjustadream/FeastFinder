@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #000000;
+}
+
+body {
+  background-color: #f6f7d6fe;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app {
+  text-align: center;
+}
+.question-card {
+  margin: 0 auto;
+  width: 450px; 
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  padding: 16px;
+  border-radius: 16px;
+  color: rgb(9, 9, 9);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.question-card2 {
+  margin: 0 auto;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 450px; 
+  height: auto;
+  background-color: rgb(255, 255, 255);
+  padding: 16px;
+  border-radius: 16px;
+  color: rgb(9, 9, 9);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.feastFinder {
+  color: #111; 
+  font-family: 'Helvetica Neue',
+   sans-serif; font-size: 100px; 
+   font-weight: bold; 
+   letter-spacing: -1px; 
+   line-height: 1; 
+   text-align: center; 
+   margin-top: 0;
+
+}
+.feastFinder2 {
+  color: #111; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 50px; 
+  font-weight: bold; 
+  letter-spacing: -1px; 
+  line-height: 1; 
+  text-align: center; 
+  margin-top: 0;
+}
+
+.results {
+  text-align: left;
+  font-size: 20px;
+  letter-spacing: -1px;
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-weight: normal;
+  margin-bottom: 10px;
+  margin-left: 15px;
+
+}
+
+.restaurant-list {
+  color: #111; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 50px; 
+  font-weight: bold; 
+  letter-spacing: -1px; 
+  line-height: 1; 
+  text-align: left; 
+  margin-top: 0;
+}
+
+.restaurant {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.restaurant-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 1rem;
+}
+
+.restaurant-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.restaurant-name {
+  font-weight: bold;
+}
+
+.restaurant-location {
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.restaurant-price {
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.question-text {
+  font-size: 20px;
+}
+
+.question-count {
+  margin-bottom: 10px;
+}
+
+.answer-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button {
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 0px;
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  color: #555e7d;
+}
+
+button:focus {
+  outline: none;
+}
+
+button svg {
+  margin-right: 5px;
+}
+
+.restaurant-list {
+  display: flex;
+}
+.images {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 200px;
+  
+}
+.restaurant-1 {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    outline: 10px;
+    align-items: left;
+}
+.restaurant1-name {
+  text-align: left;
+  font-size: 30px;
+  letter-spacing: -1px;
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.img-txt-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.restaurant1-percentSimilarity {
+  text-align: left;
+  font-size: 15px;
+  letter-spacing: -1px;
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color:#4b4b4b
+}
+
+.restaurant-2 {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  outline: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.restaurant-2:hover {
+  color:#4b4b4b;
+}
+.restaurant2-name {
+  text-align: left;
+  font-size: 30px;
+  letter-spacing: -1px;
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.restaurant2-percentSimilarity {
+  text-align: left;
+  font-size: 15px;
+  letter-spacing: -1px;
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-weight: bold;
+  margin-top: 0px;
+  color:#4b4b4b
+}
+
+.restaurant-3 {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  outline: 10px;
+  margin-left: 100px;
+}
+
+.restaurant3-name {
+  text-align: left;
+  font-size: 30px;
+  letter-spacing: -1px;
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.restaurant3-percentSimilarity {
+  text-align: left;
+  font-size: 15px;
+  letter-spacing: -1px;
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-weight: bold;
+  margin-top: 0px;
+  color:#4b4b4b
+}
+
+.Logo {
+  width: 200px;
+  height: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+a:link { 
+  text-decoration: none; 
+}
+
+
+a:visited { 
+  text-decoration: none; 
+}
+
+
+a:hover { 
+  text-decoration: none;
+  color:#4b4b4b;
+}
+
+
+a:active { 
+  text-decoration: none; 
+}
+
+.cards {
+  display:flex;
+  flex-direction: row;
+}
+
+.image {
+  width: 200px;
+  height: 100px;
+}
+
+.flexRow{
+  display:flex;
+  flex-direction:row;
+  gap: 30px;
+
+}
