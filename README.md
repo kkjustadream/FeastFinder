@@ -1,3 +1,6 @@
+# Demo
+
+[![Watch the video](https://img.youtube.com/vi/N6347gy8wq0/0.jpg)](https://www.youtube.com/watch?v=N6347gy8wq0)
 # Inspiration
 FeastFinder was born from a frustration with the traditional food discovery process. We noticed that finding small, local restaurants that offered unique and authentic dining experiences took much work. We wanted to redesign the process to connect users with their community better and provide them with a more personalized and enjoyable food discovery journey. With FeastFinder, we use the latest machine-learning technology to recommend local restaurants and bring the joy of food discovery back to the forefront.
 
